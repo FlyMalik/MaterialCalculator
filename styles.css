@@ -52,7 +52,7 @@ input[type=number]{
     min-width: 13.75rem;
     height: 13.75rem; 
     margin-left: 4.5em;
-    background-image: url(images/lftW3.png); 
+    background-image: url(./images/lftW3.png); 
     background-repeat: no-repeat;
    
 } 
@@ -76,7 +76,7 @@ input[type=number]{
 #img2{
     min-width: 13.75rem;
     height: 13.75rem;
-    background-image: url(images/img111.png);
+    background-image: url(./images/img111.png);
 	background-repeat: no-repeat;
     border-radius: 50%;
     margin-left: 4.5em;
@@ -97,7 +97,7 @@ input[type=number]{
      
 }
 #program{
-    background-image: url(images/bgform22.png);
+    background-image: url(./images/bgform22.png);
 }
 #form label{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -224,7 +224,7 @@ input[type=number]{
  #section1{
     background-color: rgb(0, 10, 20);
     position: relative;
-    background-image: url(images/thinback.png);
+    background-image: url(./images/thinback.png);
     background-repeat: repeat-x;
     color: #ffffff;
     padding-top: 4.375rem;
@@ -246,7 +246,7 @@ input[type=number]{
     width: 4.69rem;
     height: 4.69rem;
     position: absolute;
-    background-image: url(images/howits2.png);
+    background-image: url(./images/howits2.png);
     background-repeat: no-repeat;
     top: -2.5rem;
     right: 1.25rem;
@@ -263,7 +263,7 @@ input[type=number]{
     width: 4.69rem;
     height: 4.69rem;
     position: absolute;
-    background-image: url(images/layz.png);
+    background-image: url(./images/layz.png);
     background-repeat: no-repeat;
     top: -2.5rem;
     right: 1.25rem;
@@ -280,7 +280,7 @@ input[type=number]{
     width: 4.6875rem;
     height: 4.6875rem;
     position: absolute;
-    background-image: url(images/conts2.png);
+    background-image: url(./images/conts2.png);
     background-repeat: no-repeat;
     top: -2.5rem;
     right:1.25rem;
@@ -304,7 +304,7 @@ input[type=number]{
 }
 #pixholder{
     border: thin solid;
-    background: url(images/pix.png);
+    background: url(./images/pix.png);
     margin-right: 0.625rem;
     margin-left: 0.625rem;
     width: 200px;
@@ -323,7 +323,7 @@ input[type=number]{
         min-width: 13.75rem;
         height: 13.75rem; 
         margin-left: 5.5em;
-        background-image: url(images/lftW3.png); 
+        background-image: url(./images/lftW3.png); 
         background-repeat: no-repeat;
        
     } 
@@ -339,7 +339,7 @@ input[type=number]{
      #img1{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img222.png);
+        background-image: url(./images/img222.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 5.5em;
@@ -347,7 +347,7 @@ input[type=number]{
     #img2{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img111.png);
+        background-image: url(./images/img111.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 5.5em;
@@ -361,7 +361,7 @@ input[type=number]{
         min-width: 13.75rem;
         height: 13.75rem; 
         margin-left: 7em;
-        background-image: url(images/lftW3.png); 
+        background-image: url(./images/lftW3.png); 
         background-repeat: no-repeat;
        
     } 
@@ -377,7 +377,7 @@ input[type=number]{
      #img1{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img222.png);
+        background-image: url(./images/img222.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 7em;
@@ -385,7 +385,7 @@ input[type=number]{
     #img2{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img111.png);
+        background-image: url(./images/img111.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 7em;
@@ -400,7 +400,7 @@ input[type=number]{
         min-width: 13.75rem;
         height: 13.75rem; 
         margin-left: 8em;
-        background-image: url(images/lftW3.png); 
+        background-image: url(./images/lftW3.png); 
         background-repeat: no-repeat;
        
     } 
@@ -416,7 +416,7 @@ input[type=number]{
      #img1{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img222.png);
+        background-image: url(./images/img222.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 8em;
@@ -424,7 +424,7 @@ input[type=number]{
     #img2{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img111.png);
+        background-image: url(./images/img111.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 8em;
@@ -438,7 +438,7 @@ input[type=number]{
         min-width: 13.75rem;
         height: 13.75rem; 
         margin-left: 0;
-        background-image: url(images/lftW3.png); 
+        background-image: url(./images/lftW3.png); 
         background-repeat: no-repeat;
        
     } 
@@ -454,7 +454,7 @@ input[type=number]{
      #img1{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img222.png);
+        background-image: url(./images/img222.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 0;
@@ -462,7 +462,7 @@ input[type=number]{
     #img2{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img111.png);
+        background-image: url(./images/img111.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 0;
@@ -476,7 +476,7 @@ input[type=number]{
         min-width: 13.75rem;
         height: 13.75rem; 
         margin-left: 40px;
-        background-image: url(images/lftW3.png); 
+        background-image: url(./images/lftW3.png); 
         background-repeat: no-repeat;
        
     } 
@@ -492,7 +492,7 @@ input[type=number]{
      #img1{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img222.png);
+        background-image: url(./images/img222.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 0;
@@ -500,7 +500,7 @@ input[type=number]{
     #img2{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img111.png);
+        background-image: url(./images/img111.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 0;
@@ -515,7 +515,7 @@ input[type=number]{
         min-width: 13.75rem;
         height: 13.75rem; 
         margin-left: 20px;
-        background-image: url(images/lftW3.png); 
+        background-image: url(./images/lftW3.png); 
         background-repeat: no-repeat;
        
     } 
@@ -531,7 +531,7 @@ input[type=number]{
      #img1{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img222.png);
+        background-image: url(./images/img222.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 0;
@@ -539,7 +539,7 @@ input[type=number]{
     #img2{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img111.png);
+        background-image: url(./images/img111.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 0;
@@ -548,7 +548,7 @@ input[type=number]{
     #img3{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img333.png);
+        background-image: url(./images/img333.png);
         background-repeat: no-repeat; 
         border-radius: 50%;
         margin-bottom: 1.25rem;
@@ -563,7 +563,7 @@ input[type=number]{
         min-width: 13.75rem;
         height: 13.75rem; 
         margin-left: 70px;
-        background-image: url(images/lftW3.png); 
+        background-image: url(./images/lftW3.png); 
         background-repeat: no-repeat;
        
     } 
@@ -579,7 +579,7 @@ input[type=number]{
      #img1{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img222.png);
+        background-image: url(./images/img222.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 30px;
@@ -587,7 +587,7 @@ input[type=number]{
     #img2{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img111.png);
+        background-image: url(./images/img111.png);
         background-repeat: no-repeat;
         border-radius: 50%;
         margin-left: 30px;
@@ -596,7 +596,7 @@ input[type=number]{
     #img3{
         min-width: 13.75rem;
         height: 13.75rem;
-        background-image: url(images/img333.png);
+        background-image: url(./images/img333.png);
         background-repeat: no-repeat; 
         border-radius: 50%;
         margin-bottom: 1.25rem;
