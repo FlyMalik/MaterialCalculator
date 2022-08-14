@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="banner">
+            <img src="images/banNerN.png" class="imgFluid">
+        </div>
+        
+       
+        <div id="split1">
+            
+         <div id="intro">
+            <div id="texttab">
+        <h4>This program was written to calculate the Cement, Sand, and Granite required in a
+            given cubic meter of concrete. </h4>
+        <h4>This program is written specifically for Metric users.
+            It requires the user to input the dimension and the mix ratio of
+            the concrete.
+        </h4>
+        </div>
+        </div>
+        
+        
+        <div id="img1"></div>
+        <div id="img2"></div>
+        <div id="img3"></div>
+        
+    </div>
+        
+        
+        <div id="program">
+        <div id="form">
+                <label><h4>This Program was written by <br>Abdulmalik, I. O.
+                    (MNIOB, CPMP) </h4></label>
+            <div>
+            <label for="lgt_entry" >Enter Length of Concrete in meter</label></div>
+                <div><input type="number" id="lgt_entry" name="length" 
+                    min="0.0001" required placeholder="Enter only a Number">
+                   
+                </div>
+                  
+            
+            <div>
+            <label for="wdt_entry" >Enter Width of Concrete in meter</label>
+            </div>
+            <div><input type="number" id="wdt_entry" name="length" 
+                min="0.0001" required placeholder="Enter only a Number">
+                
+            </div>
+        
+            <div>
+            <label for="dpt_entry" >Enter Depth of Concrete in meter</label>
+            </div>
+            <div><input type="number" id="dpt_entry" name="length" 
+                min="0.0001" required placeholder="Enter only a Number">
+                
+            </div>
+        
+        
+            <div class="space">
+               <label>Enter the Mix Ratio in their respective fields</label>
+            </div>
+            <div>
+            <label for="cmt_entry" >Cement ratio</label>
+            </div>
+               <div> 
+                <input type="number" id="cmt_entry" name="length"
+                 min="0.0001" required placeholder="Enter only a Number">
+            </div>
+        
+            <div>
+            <label for="snd_entry" >Sand ratio</label>
+            </div>
+            <div><input type="number" id="snd_entry" name="length" 
+                min="0.0001" required placeholder="Enter only a Number">
+            </div>
+        
+            <div>
+            <label for="grn_entry" >Granite ratio</label>
+            </div>
+                <div><input type="number" id="grn_entry" name="length" 
+                    min="0.0001" required placeholder="Enter only a Number">
+            </div>
+        
+            <div id="buttonz">
+                <button type="button" class="butts" onclick="calculate()">CALCULATE MATERIAL</button>
+                <button type="button" class="butts" onclick="reset()">RESET PROGRAM</button>
+                </div>
+            <div id="result">
+            <div class="space">
+                <label>The Dimension of your Concrete is</label>
+                <p class="resultSmall" id="dim_entry"></p>  
+                
+            </div>
+
+            <div>
+                <label>You will require approximately:</label>
+            </div>
+            <div id="bagNeed">
+                
+                <p class="resultSmall" id="bag_entry2" >"></p>  
+                <p class="labTag">Bag(s) of Cement</p>
+             </div>
+             <p id="perc1" class="jackup"></p>
+
+            <div id="tnSNeed" class="margin4result" >
+                 <p class="resultSmall" id="tnS_entry"></p>  
+                <p class="labTag">Ton(s) of Sand</p>
+            </div>
+            <p id="perc2" class="jackup"></p>
+         <div id="tnGNeed" class="margin4result" >
+            <p class="resultSmall" id="tnG_entry"></p> 
+             <p class="labTag">Ton(s) of Granite</p>
+            </div>
+
+            <p id="perc3" class="jackup"></p>  
+
+            </div>
+
+            <div>
+                <label>Program's Feedback</label>
+            </div>
+            <div id="splitE">
+            <div>
+                <p id="fdb_entry2" class="result"></p>
+            </div>
+             </div>
+        
+        </div>
+        
+        <div id="section1">
+        <div id="split2">
+        <div id="split3">
+        <div id="tworks">
+            <div id="howits"></div>
+            <h3> How it works</h3>
+        <p> A user needs to enter the length, width, & depth of the concrete. The user must also
+            specify the mix ratio of the materials. All of which must be purely numerical. </p>
+        </div>
+        
+        <div id="constant">
+            <div id="conts"></div>
+            <h3 class="bigH">Constants Used</h3>
+            <p>Depending on the region, bags of cements may vary in kilograms. Also, density of sand and
+                granite may vary from 1450 to 2080 Kg/m3 depending on lots of factors.</p>
+            
+            <p>This program however has employed the following constant in its adjudication:</p>
+                <ul>
+                    <li>Bag of cement = 50kg</li>
+                    <li>Density of Cement = 1440kg/m3</li>
+                    <li>Density of Sand = 1450kg/m3</li>
+                   <li> Density of Granite = 1550kg/m3</li>
+                </ul>
+            
+            </div>
+            </div>
+
+        <div id="layman">
+        <div id="lays"></div>
+            <h3> Breakdown </h3>
+            <p>To use this program, a person must understand two (2) concrete concepts: 
+               <br> 1. Dimension. 2. Mix ratio.<br></p>
+        
+            <h4>Dimension</h4>
+            <p>Physical objects have dimensions. They could be in linear (length), square (length x breadth) or in
+            cubic (length x breadth x height, or length x breadth x depth, or length x width x depth). Concrete is
+                measured in cubic. A user of this program must know these
+                details about the concrete they wish to calculate.</p>
+        
+            <h4>Mix ratio</h4>
+            <p>This determines the grade (strength) of the concrete. It is the proportion of the cement, sand, and
+                granite/gravel/rocks in the concrete.</p>
+            <p>This proportion can be measured in head-pans, batch boxes, buckets, etc.
+            The smaller the mix ratio, the higher the Strength of the concrete. That is a mix ratio
+                of 1:2:4 is greater than 1:3:6, and is in turn greater than 1:4:8 in strength.</p>
+            <p>Mix ratio 1:4:8 means 1 head-pan of cement, 4
+            head-pans of sand & 8 head-pans of granite in that order. You  can read more on mix ratio
+                and the appropriate projects to use them.</p>
+        </div>
+        
+        
+        </div>
+
+        <div id="author">
+            <div id="text_area">
+            <h3>About the author</h3>
+        <p>Abdulmalik Imammalik Osemudiamen is a Corporate Member of The Nigerian Institute of Building (NIOB),
+            a Certified Project Manager with The American Academy of Project Management (AAPM),
+            a professional 3D Interior Designer, an NFT Artist, and a Self-taught Programmer.</p>
+        </div>
+        <div id="pixholder"></div>
+        </div>
+        
+        </div>
+        
+        </div>
+
+        
+        </div>
+        <div id="foota"> 
+        <p>The contents of this page are Copyright protected, thereby making it illegal to reproduce its content or 
+            parts thereof without due permission from Fly Designs - @flydesigns1. 
+            Designed by Don Imali for FlyMWebMasters. ©2022</p>
+        </div>
+        
+        <script src="script.js"></script> 
+</body>
+</html>
