@@ -9,7 +9,7 @@ let graniteIN = parseFloat(document.getElementById("grn_entry").value)
 
 // Entries and Outputs
 let cubic = lengthIN * widthIN * depthIN
-let dimension = cubic
+let dimension = cubic.toFixed(2)
 let total_ratio = cementIN + sandIN + graniteIN
 let cement_co = cementIN / total_ratio
 let sand_co = sandIN / total_ratio
