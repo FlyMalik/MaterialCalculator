@@ -21,7 +21,7 @@ let sand_factor = 1450
 let granite_factor = 1550
 let k2 = 50
 let k3 = 1000
-let wastagePercent = 0.05
+let wastagePercent = 0.47
 
 // Cement
 let cement1 = cement_co * dimension
@@ -78,9 +78,9 @@ if (isNaN(cementOUT.textContent))
     }
 
 else {feedbackOUT2.innerHTML = 'Succesful Calculation. Thank you for using this Program. Reset to begin again.'
-        percOUT1.textContent = '*Already added: additional 5% for wastage'
-        percOUT2.textContent = '*Already added: additional 5% for wastage'
-        percOUT3.textContent = '*Already added: additional 5% for wastage'
+        percOUT1.textContent = '*Already added: additional 42% for shrinkage & 5% for wastage'
+        percOUT2.textContent = '*Already added: additional 42% for shrinkage & 5% for wastage'
+        percOUT3.textContent = '*Already added: additional 42% for shrinkage & 5% for wastage'
 }    
 
 }
